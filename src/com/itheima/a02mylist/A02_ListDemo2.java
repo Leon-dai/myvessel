@@ -22,6 +22,7 @@ public class A02_ListDemo2 {
         //因为在调用方法的时候，如果方法出现了重载的现象，就优先调用实参和形参类型一致的那个方法
         //list.remove(1);
 
+
         //手动装箱，手动把基本数据类型的1，变成Integer类型
         Integer i = Integer.valueOf(1);
         list.remove(i);
