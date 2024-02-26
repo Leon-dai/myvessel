@@ -35,6 +35,19 @@ public class A03_CollectionDemo3 {
             System.out.println(str);
         }
 
+        //当上面的循环结束之后，迭代器的指针已经指向了最后没有元素的位置
+        //System.out.println(it.next());//NoSuchElementException
+
+        //迭代器遍历完毕，指针不会复位
+        System.out.println(it.hasNext());
+
+        //如果我们要继续进行第二次遍历集合，只能再次获取一个新的迭代器对象
+        Iterator<String> it2 = coll.iterator();
+        while (it2.hasNext()) {
+            String str = it2.next();
+            System.out.println(str);
+        }
+
 
     }
 }
