@@ -1,8 +1,7 @@
-package com.itheima.mycollection;
+package com.itheima.a01mycollection;
 
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.Iterator;
 
 public class A04_CollectionDemo4 {
     public static void main(String[] args) {
